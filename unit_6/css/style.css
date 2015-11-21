@@ -1,0 +1,154 @@
+body {
+	font-family: 'georgia', serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: normal;
+	font-family: 'oswald', sans-serif;
+	color: #000000;
+	background-color: #CACACA;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin: 0;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+
+}
+
+header {
+	text-align: center;
+}
+
+nav {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #000000;
+	font-family: 'oswald', sans-serif;
+	display: inline-block;
+	width: 100px;
+}
+
+a:hover {
+	background-color: #CACACA;
+	color: #FFFFFF;
+}
+
+hr {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+#wrapper {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+#articlebreak {
+	width: 700px;
+}
+
+#articles {
+	width: 720px;
+	float: left;
+}
+
+aside {
+	width: 320px;
+	float: right;
+}
+
+aside a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "oswald", sans-serif;
+	color: #000000;
+}
+
+#articles a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "oswald", sans-serif;
+	color: #000000;
+}
+
+#articles a:hover {
+	background-color: #CACACA;
+	color: #FFFFFF;
+}
+
+div .Group1 img {
+	width: 325px;
+	display: inline-block;
+	padding-bottom: 15px;
+	padding-top: 35px;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: center;
+}
+
+div .Group2 img {
+	width: 145px;
+	display: inline-block;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 35px;
+}
+
+#photobooth2 {
+	width: 300px;
+	padding: 20px 20px;
+}
+
+#brunch2 {
+	width: 300px;
+	padding: 20px 20px;
+}
+
+#article1 {
+	text-align: left;
+	padding: 25px 25px;
+}
+
+#article2 {
+	text-align: left;
+	padding: 25px 25px;
+}
+
+footer {
+	background-color: #CACACA;
+	text-align: center;
+	padding: 2em 2em;
+	margin-top: 35px;
+	font-family: 'oswald', sans-serif;
+	font-size: 12px;
+
+}
+
+footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: 'oswald', sans-serif;
+
+}
+
+footer a:hover {
+	color: #000000;
+}
