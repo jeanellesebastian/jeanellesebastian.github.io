@@ -132,10 +132,11 @@ section { padding-left: 5em;
 	}
 
 	h1 {
-		font-size: 1em;
+		font-size: 3em;
 		background-color: #777;
 		color: #ffffff;
 		padding: .25em .25em .25em .25em;
+		text-transform: uppercase;
 	}
 
 	header {
@@ -153,7 +154,7 @@ section { padding-left: 5em;
 
 	section {
 		padding: 0 0 0 0;
-		background-color: #2C7489;
+		background-color: #000000;
 	}
 
 	#slogan {
@@ -166,7 +167,7 @@ section { padding-left: 5em;
 		padding-top: 1em;
 		line-height: 1em;
 		text-align: center;
-		background-color: #2C7489;
+		background-color: #000000;
 
 }
 
@@ -177,5 +178,5 @@ section { padding-left: 5em;
 	footer {
 		text-align: center;
 		padding: 1em 1em 1em 1em;
-		font-size: .5em;
+		font-size: 2em;
 	}
