@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+}
+
+body {
+     background-color: #8C8C8C;
+     font-size: 16px;
+ }
+
+h1 {
+	color: #404040;
+	font-size: 4.5em;
+	font-family: 'Oswald', sans-serif;
+}
+
+header {
+	background-color: #ffffff;
+	padding-right: 5em;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	text-align: right;
+
+}
+
+
+footer {
+	background-color: #CACACA;
+	padding: 3em;
+	text-align: right;
+	padding-right:5em;
+	color: #404040;
+}
+
+#slogan {
+	color: #ffffff;
+	font-style: italic;
+	font-family: 'Karla', sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	padding-bottom:.5em;
+	padding-top: .5em;
+	line-height: 1.5em;
+}
+
+img {
+	width: 20em;
+}
+
+ul {
+padding-left: 5em;}
+
+a {
+	text-decoration: none;
+	color: #404040;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #ffffff;
+
+}
+
+section { padding-left: 5em;
+	padding-bottom:2em;
+	line-height: 1.5em;
+	margin: 2em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+	img {
+		width: 75%;
+		float: none;
+		padding: 1em 1em 1em 1em;
+	}
+
+	h1 {
+		font-size: 2em;
+		background-color: #777;
+		color: #ffffff;
+		padding: .5em .5em .5em .5em;
+	}
+
+	header {
+	background-color: #ffffff;
+	padding: 0 0 0 0;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+	#info { 
+		display: none;
+
+
+}
+
+	section {
+		padding: 0 0 0 0;
+		background-color: #2C7489;
+	}
+
+	#slogan {
+		color: #ffffff;
+		font-style: italic;
+		font-family: 'Karla', sans-serif;
+		font-weight: bold;
+		font-size: 1.5em;
+		padding-bottom: 2em;
+		padding-top: 2em;
+		line-height: 1.5em;
+		text-align: center;
+		background-color: #2C7489;
+
+}
+
+	body {
+		background-color: #2C7489;
+	}
+
+	footer {
+		text-align: center;
+		padding: 2em 2em 2em 2em;
+		font-size: .8em;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	img {
+		width: 80%;
+		float: none;
+		padding: 1em 1em 1em 1em;
+	}
+
+	h1 {
+		font-size: 1em;
+		background-color: #777;
+		color: #ffffff;
+		padding: .25em .25em .25em .25em;
+	}
+
+	header {
+	background-color: #ffffff;
+	padding: 0 0 0 0;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+	#info { 
+		display: none;
+
+
+}
+
+	section {
+		padding: 0 0 0 0;
+		background-color: #2C7489;
+	}
+
+	#slogan {
+		color: #ffffff;
+		font-style: italic;
+		font-family: 'Karla', sans-serif;
+		font-weight: bold;
+		font-size: 1em;
+		padding-bottom: 1em;
+		padding-top: 1em;
+		line-height: 1em;
+		text-align: center;
+		background-color: #2C7489;
+
+}
+
+	body {
+		background-color: #000000;
+	}
+
+	footer {
+		text-align: center;
+		padding: 1em 1em 1em 1em;
+		font-size: .5em;
+	}
